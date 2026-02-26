@@ -5,7 +5,7 @@
   "use strict";
 
   var cardBadgesCache = {};
-  var pluginPath = "https://alexovr1.github.io/Icons/";
+  var pluginPath = "https://alexovr1.github.io/plugins/Icons/";
 
   var svgIcons = {
     "4K": pluginPath + "4K.svg",
