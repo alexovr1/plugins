@@ -223,9 +223,9 @@
   var style =
     "<style>\
     .quality-badges-container { display: flex; gap: 0.3em; margin: 0 0 0.4em 0; min-height: 1.2em; pointer-events: none; }\
-    .quality-badge { height: 5em; opacity: 0; transform: translateY(8px); animation: qb_in 0.4s ease forwards; }\
+    .quality-badge { height: 2.5em; opacity: 0; transform: translateY(8px); animation: qb_in 0.4s ease forwards; }\
     .card-quality-badges { position: absolute; top: 0.3em; right: 0.3em; display: flex; flex-direction: row; gap: 0.2em; pointer-events: none; z-index: 5; }\
-    .card-quality-badge { height: 2em; opacity: 0; transform: translateY(5px); animation: qb_in 0.3s ease forwards; }\
+    .card-quality-badge { height: 1.5em; opacity: 0; transform: translateY(5px); animation: qb_in 0.3s ease forwards; }\
     @keyframes qb_in { to { opacity: 1; transform: translateY(0); } }\
     .quality-badge img, .card-quality-badge img { height: 100%; width: auto; display: block; }\
     .card-quality-badge img { filter: drop-shadow(0 1px 2px #000); }\
