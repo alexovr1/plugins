@@ -230,7 +230,7 @@
     .quality-badge img, .card-quality-badge img { height: 100%; width: auto; display: block; }\
     .card-quality-badge img { filter: drop-shadow(0 1px 2px #000); }\
     @media (max-width: 768px) {\
-      .quality-badges-container { gap: 0.25em; margin: 0 0 0.35em 0; min-height: 1em; }\
+      .quality-badges-container { gap: 0.25em; margin: 0 0 0.7em 0; min-height: 1em; }\
       .quality-badge { height: 1.5em; }\
       .card-quality-badges { top: 0.25em; right: 0.25em; gap: 0.18em; }\
       .card-quality-badge { height: 1.5em; }\
