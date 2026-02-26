@@ -57,17 +57,14 @@
     }
 
     function doExit() {
-      if (Lampa.Activity && typeof Lampa.Activity.exit === "function") {
-        Lampa.Activity.out();
-        if (Lampa.Platform.is("apple_tv"))
-          window.location.assign("exit://exit");
-        if (Lampa.Platform.is("tizen"))
-          tizen.application.getCurrentApplication().exit();
-        if (Lampa.Platform.is("webos")) window.close();
-        if (Lampa.Platform.is("android")) Lampa.Android.exit();
-        if (Lampa.Platform.is("orsay")) Lampa.Orsay.exit();
-        if (Lampa.Platform.is("nw")) nw.Window.get().close();
-      }
+      Lampa.Activity.out();
+      if (Lampa.Platform.is("apple_tv")) window.location.assign("exit://exit");
+      if (Lampa.Platform.is("tizen"))
+        tizen.application.getCurrentApplication().exit();
+      if (Lampa.Platform.is("webos")) window.close();
+      if (Lampa.Platform.is("android")) Lampa.Android.exit();
+      if (Lampa.Platform.is("orsay")) Lampa.Orsay.exit();
+      if (Lampa.Platform.is("nw")) nw.Window.get().close();
     }
 
     // Показати меню дій
